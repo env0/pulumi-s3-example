@@ -6,7 +6,7 @@ const mime = require("mime");
 
 // Create an S3 bucket
 let siteBucket = new aws.s3.Bucket("s3-website-bucket");
-let siteBucket2 = new aws.s3.Bucket("s3-website-bucket");
+let siteBucket2 = new aws.s3.Bucket("s3-website-bucket2");
 
 let siteDir = "www"; // directory for content files
 
