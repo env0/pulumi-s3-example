@@ -6,6 +6,7 @@ const mime = require("mime");
 
 // Create an S3 bucket
 let siteBucket = new aws.s3.Bucket("s3-website-bucket");
+let siteBucket2 = new aws.s3.Bucket("s3-website-bucket");
 
 let siteDir = "www"; // directory for content files
 
@@ -20,3 +21,4 @@ for (let item of require("fs").readdirSync(siteDir)) {
 }
 
 exports.bucketName = siteBucket.bucket; // create a stack export for bucket name
+exports.bucketName2 = siteBucket2.bucket;
