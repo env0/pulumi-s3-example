@@ -1,5 +1,5 @@
 {
-    "name": "pulumi-outputt",
+    "name": "pulumi-output",
     "devDependencies": {
         "@types/node": "^14"
     },
