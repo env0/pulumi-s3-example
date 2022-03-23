@@ -5,7 +5,7 @@ const aws = require("@pulumi/aws");
 const mime = require("mime");
 
 // Create an S3 bucket
-let siteBucket = new aws.s3.Bucket("s3-website-bucket");
+let siteBucket = new aws.s3.Bucket("s3-website-bucket-new");
 
 let siteDir = "www"; // directory for content files
 
